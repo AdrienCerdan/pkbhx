@@ -4,6 +4,7 @@ channels:
   - defaults
 dependencies:
   - python==3.12.12
+  - numpy==1.26.4
   - psi4==1.10
   - dftd4-python==4.0.2
   - gcp-correction==2.3.1
