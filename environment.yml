@@ -1,0 +1,16 @@
+name: pkbhx_prod
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.12.12
+  - psi4==1.10
+  - dftd4-python==4.0.2
+  - gcp-correction==2.3.1
+  - scipy==1.17.0
+  - pip
+  - pip:
+    - git+https://github.com/isayevlab/Auto3D_pkg.git
+    - torch==2.10.0
+    - rdkit==2023.9.6
+    - setuptools<70.0.0
